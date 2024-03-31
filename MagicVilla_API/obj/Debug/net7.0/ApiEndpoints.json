@@ -198,6 +198,38 @@
     ]
   },
   {
+    "ContainingType": "MagicVilla_API.Controllers.UsuarioController",
+    "Method": "Login",
+    "RelativePath": "api/Usuario/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "MagicVilla_API.Modelos.Dto.LoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MagicVilla_API.Controllers.UsuarioController",
+    "Method": "Registrar",
+    "RelativePath": "api/Usuario/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "MagicVilla_API.Modelos.Dto.RegistroRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MagicVilla_API.Controllers.VillaController",
     "Method": "GetVillas",
     "RelativePath": "api/Villa",
