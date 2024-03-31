@@ -10,9 +10,9 @@ namespace MagicVilla_API.Repositorio.IRepositorio
         //Si no se envía un filtro, simplemente nos devolverá toda la lista.
         //Si sí se le envía, esta lista se filtrará según la expresión que le enviemos.
         //La expresion es una ExpressionLinq
-        Task<List<T>> ObtenerTodos(Expression<Func<T, bool>>? filtro = null);
+        Task<List<T>> ObtenerTodos(Expression<Func<T, bool>>? filtro = null, string? incluirPropiedades = null);
 
-        Task<T> Obtener(Expression<Func<T, bool>> filtro = null, bool tracked = true);
+        Task<T> Obtener(Expression<Func<T, bool>> filtro = null, bool tracked = true, string? incluirPropiedades = null);
 
         Task Remover(T entidad);
 

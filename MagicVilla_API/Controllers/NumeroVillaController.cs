@@ -42,9 +42,10 @@ namespace MagicVilla_API.Controllers
             {
                 _logger.LogInformation("Obtener todas las villas");
                 //return Ok(VillaStore.villaList); //Trabajando con lista en memoria
-                IEnumerable<NumeroVilla> numeroVillaList = await _numeroRepo.ObtenerTodos();
+                //incluirPropiedades es para traer los datos del padre, en este caso Villa
+                IEnumerable<NumeroVilla> numeroVillaList = await _numeroRepo.ObtenerTodos(incluirPropiedades:"Villa");
 
-                _response.Resultado = _mapper.Map<IEnumerable<VillaDto>>(numeroVillaList); //Convierte de numeroVilla a numeroVillaDto
+                _response.Resultado = _mapper.Map<IEnumerable<NumeroVillaDto>>(numeroVillaList); //Convierte de numeroVilla a numeroVillaDto
                 _response.statusCode = HttpStatusCode.OK;
 
                 return Ok(_response);
@@ -78,7 +79,7 @@ namespace MagicVilla_API.Controllers
                     return BadRequest("El id debe ser mayor a 0. " + _response);
                 }
 
-                var numeroVilla = await _numeroRepo.Obtener(v => v.VillaNo == id);
+                var numeroVilla = await _numeroRepo.Obtener(v => v.VillaNo == id, incluirPropiedades: "Villa");
 
                 if (numeroVilla == null)
                 {
@@ -120,13 +121,13 @@ namespace MagicVilla_API.Controllers
                 //Validación personalizada de ModelState
                 if (await _numeroRepo.Obtener(v => v.VillaNo == createDto.VillaNo) != null)
                 {
-                    ModelState.AddModelError("NombreExiste", "El número de Villa ya existe!");
+                    ModelState.AddModelError("ErrorMessages", "El número de Villa ya existe!");
                     return BadRequest(ModelState);
                 }
 
                 if (await _villaRepo.Obtener(v => v.Id == createDto.VillaId) == null)
                 {
-                    ModelState.AddModelError("ClaveForanea", "El id de la Villa no existe!");
+                    ModelState.AddModelError("ErrorMessages", "El id de la Villa no existe!");
                     return BadRequest(ModelState);
                 }
 
@@ -212,7 +213,7 @@ namespace MagicVilla_API.Controllers
 
                 if (await _villaRepo.Obtener(v => v.Id == updateDto.VillaId) == null)
                 {
-                    ModelState.AddModelError("ClaveForanea", "El id de la Villa no existe!");
+                    ModelState.AddModelError("ErrorMessages", "El id de la Villa no existe!");
                     return BadRequest(ModelState);
                 }
 
@@ -231,6 +232,5 @@ namespace MagicVilla_API.Controllers
 
             return BadRequest(_response);
         }
-
     }
 }
