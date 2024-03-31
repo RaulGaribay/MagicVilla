@@ -16,13 +16,10 @@ namespace MagicVilla_API.Modelos.Dto
         [Required]
         public double Tarifa { get; set; }
 
-        [Required]
         public int Ocupantes { get; set; }
 
-        [Required]
         public int MetrosCuadrados { get; set; }
 
-        [Required]
         public string ImagenUrl { get; set; }
 
         public string Amenidad { get; set; }

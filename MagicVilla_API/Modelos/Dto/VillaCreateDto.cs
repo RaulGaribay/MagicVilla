@@ -10,7 +10,7 @@ namespace MagicVilla_API.Modelos.Dto
 
         public string Detalle { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "El campo tarifa es requerido")]
         public double Tarifa { get; set; }
 
         public int Ocupantes { get; set; }
