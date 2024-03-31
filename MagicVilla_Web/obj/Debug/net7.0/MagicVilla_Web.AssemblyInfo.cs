@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MagicVilla_Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75e8efd9f9c8cde3a36f6f379b4571495ddbaab5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+507baa60bebd23c1d68d6df0ff5e7d8c2caa797a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MagicVilla_Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MagicVilla_Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

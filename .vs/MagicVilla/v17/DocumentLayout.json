@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\MagicVilla\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{223401EF-7EDC-4947-AA06-649A19A3A2DD}|MagicVilla_Web\\MagicVilla_Web.csproj|c:\\users\\usuario\\desktop\\magicvilla\\magicvilla_web\\controllers\\numerovillacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{223401EF-7EDC-4947-AA06-649A19A3A2DD}|MagicVilla_Web\\MagicVilla_Web.csproj|solutionrelative:magicvilla_web\\controllers\\numerovillacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9E7B021-5D21-4C77-B62B-1BE64273BCEE}|MagicVilla_API\\MagicVilla_API.csproj|c:\\users\\usuario\\desktop\\magicvilla\\magicvilla_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E7B021-5D21-4C77-B62B-1BE64273BCEE}|MagicVilla_API\\MagicVilla_API.csproj|solutionrelative:magicvilla_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NumeroVillaController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\MagicVilla\\MagicVilla_Web\\Controllers\\NumeroVillaController.cs",
-              "RelativeDocumentMoniker": "MagicVilla_Web\\Controllers\\NumeroVillaController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\MagicVilla\\MagicVilla_Web\\Controllers\\NumeroVillaController.cs",
-              "RelativeToolTip": "MagicVilla_Web\\Controllers\\NumeroVillaController.cs",
-              "ViewState": "AQIAAJkAAAAAAAAAAAAAAMUAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T04:11:24.113Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -36,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\MagicVilla\\MagicVilla_API\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "MagicVilla_API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\MagicVilla\\MagicVilla_API\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "MagicVilla_API\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T21:59:40.68Z",
+              "EditorCaption": ""
             }
           ]
         }
