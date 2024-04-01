@@ -1,4 +1,5 @@
-﻿using MagicVilla_API.Modelos;
+﻿using Asp.Versioning;
+using MagicVilla_API.Modelos;
 using MagicVilla_API.Modelos.Dto;
 using MagicVilla_API.Repositorio;
 using MagicVilla_API.Repositorio.IRepositorio;
@@ -9,8 +10,10 @@ using System.Net;
 
 namespace MagicVilla_API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
+    //Para que aparezca en todas las versiones de la API
+    [ApiVersionNeutral]
     public class UsuarioController : ControllerBase
     {
         private readonly IUsuarioRepositorio _usuarioRepo;
@@ -26,7 +29,7 @@ namespace MagicVilla_API.Controllers
         public async Task<IActionResult> Login([FromBody] LoginRequestDTO modelo)
         {
             var loginResponse = await _usuarioRepo.Login(modelo);
-            if(loginResponse.Usuario == null || loginResponse.Token.IsNullOrEmpty())
+            if (loginResponse.Usuario == null || loginResponse.Token.IsNullOrEmpty())
             {
                 _response.statusCode = HttpStatusCode.BadRequest;
                 _response.IsExitoso = false;
@@ -44,7 +47,7 @@ namespace MagicVilla_API.Controllers
         {
             bool isUsuarioUnico = _usuarioRepo.IsUsuarioUnico(modelo.UserName);
 
-            if(!isUsuarioUnico)
+            if (!isUsuarioUnico)
             {
                 _response.statusCode = HttpStatusCode.BadRequest;
                 _response.IsExitoso = false;

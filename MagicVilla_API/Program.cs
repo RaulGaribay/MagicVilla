@@ -1,3 +1,4 @@
+using Asp.Versioning;
 using MagicVilla_API;
 using MagicVilla_API.Datos;
 using MagicVilla_API.Repositorio;
@@ -41,6 +42,18 @@ builder.Services.AddSwaggerGen(options => {
             new List<string>()
         }
     });
+    options.SwaggerDoc("v1", new OpenApiInfo 
+    {
+        Version = "v1",
+        Title = "Magic Villa v1",
+        Description = "API para villas"
+    });
+    options.SwaggerDoc("v2", new OpenApiInfo
+    {
+        Version = "v2",
+        Title = "Magic Villa v2",
+        Description = "API para villas"
+    });
 });
 
 var key = builder.Configuration.GetValue<string>("ApiSettings:Secret");
@@ -75,12 +88,28 @@ builder.Services.AddScoped<IVillaRepositorio, VillaRepositorio>();
 builder.Services.AddScoped<INumeroVillaRepositorio, NumeroVillaRepositorio>();
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 
+builder.Services.AddApiVersioning(options =>
+{
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+    options.ReportApiVersions = true;
+}).AddMvc().AddApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'VVV";
+    options.SubstituteApiVersionInUrl = true;
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Magic_VillaV1");
+        options.SwaggerEndpoint("/swagger/v2/swagger.json", "Magic_VillaV2");
+    });
     app.UseSwaggerUI();
 }
 
