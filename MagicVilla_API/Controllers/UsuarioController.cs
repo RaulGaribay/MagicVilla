@@ -1,4 +1,4 @@
-﻿using Asp.Versioning;
+﻿//using Asp.Versioning;
 using MagicVilla_API.Modelos;
 using MagicVilla_API.Modelos.Dto;
 using MagicVilla_API.Repositorio;
@@ -12,8 +12,9 @@ namespace MagicVilla_API.Controllers
 {
     [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
-    //Para que aparezca en todas las versiones de la API
     [ApiVersionNeutral]
+    //Para que aparezca en todas las versiones de la API
+    //[ApiVersion("1.0")]
     public class UsuarioController : ControllerBase
     {
         private readonly IUsuarioRepositorio _usuarioRepo;
