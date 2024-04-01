@@ -1,13 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "YHsZYSirQLOMrGpcd0Vb6JRZbP7/Te3GkgqQf/77K1y9TX945rlQUB34MDtkpJWTbPjkiny4Uz02OqSgr3MLNA==",
+  "dgSpecHash": "BB3m/WEKHl7/JreSbkBDgHctZq+bC1bBDDrWIYsFGIQpRd0SAm/8LR4E3cuC8ZG9bIkAbcqh76s6bwn3l8v+YA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Usuario\\.nuget\\packages\\asp.versioning.abstractions\\7.0.0\\asp.versioning.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\asp.versioning.http\\7.0.0\\asp.versioning.http.7.0.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\asp.versioning.mvc\\7.0.0\\asp.versioning.mvc.7.0.0.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\7.0.0\\asp.versioning.mvc.apiexplorer.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -15,6 +11,8 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.0\\microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.0\\microsoft.aspnetcore.jsonpatch.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.15\\microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

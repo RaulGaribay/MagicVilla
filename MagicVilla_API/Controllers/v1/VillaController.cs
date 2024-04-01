@@ -1,8 +1,9 @@
-﻿using Asp.Versioning;
+﻿//using Asp.Versioning;
 using AutoMapper;
 using MagicVilla_API.Datos;
 using MagicVilla_API.Modelos;
 using MagicVilla_API.Modelos.Dto;
+using MagicVilla_API.Modelos.Especificaciones;
 using MagicVilla_API.Repositorio.IRepositorio;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -34,6 +35,9 @@ namespace MagicVilla_API.Controllers.v1
         }
 
         [HttpGet]
+        //Después de la primera petición, durante 30 segundos ya no consultará la información  
+        //de la base de datos sino que enviará lo que tiene en memoria si se llega a realizar la misma solicitud.
+        [ResponseCache(CacheProfileName = "Default30")]
         [Authorize]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<APIResponse>> GetVillas()
@@ -46,6 +50,29 @@ namespace MagicVilla_API.Controllers.v1
 
                 _response.Resultado = _mapper.Map<IEnumerable<VillaDto>>(villaList); //Convierte de Villa a VillaDto
                 _response.statusCode = HttpStatusCode.OK;
+
+                return Ok(_response);
+            }
+            catch (Exception ex)
+            {
+                _response.IsExitoso = false;
+                _response.ErrorMessages = new List<string>() { ex.ToString() };
+            }
+
+            return _response;
+        }
+
+        [HttpGet("VillasPaginado")]
+        [ResponseCache(CacheProfileName = "Default30")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public ActionResult<APIResponse> GetVillasPaginado([FromQuery] Parametros parametros)
+        {
+            try
+            {
+                var villaList = _villaRepo.ObtenerTodosPaginado(parametros);
+                _response.Resultado = _mapper.Map<IEnumerable<VillaDto>>(villaList); //Convierte de Villa a VillaDto
+                _response.statusCode = HttpStatusCode.OK;
+                _response.TotalPaginas = villaList.MetaData.TotalPages;
 
                 return Ok(_response);
             }
@@ -276,6 +303,5 @@ namespace MagicVilla_API.Controllers.v1
 
             return BadRequest(_response);
         }
-
     }
 }

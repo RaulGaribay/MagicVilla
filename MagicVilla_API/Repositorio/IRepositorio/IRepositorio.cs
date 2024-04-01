@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using MagicVilla_API.Modelos.Especificaciones;
+using System.Linq.Expressions;
 
 namespace MagicVilla_API.Repositorio.IRepositorio
 {
@@ -11,6 +12,8 @@ namespace MagicVilla_API.Repositorio.IRepositorio
         //Si sí se le envía, esta lista se filtrará según la expresión que le enviemos.
         //La expresion es una ExpressionLinq
         Task<List<T>> ObtenerTodos(Expression<Func<T, bool>>? filtro = null, string? incluirPropiedades = null);
+
+        PagedList<T> ObtenerTodosPaginado(Parametros parametros, Expression<Func<T, bool>>? filtro = null, string? incluirPropiedades = null);
 
         Task<T> Obtener(Expression<Func<T, bool>> filtro = null, bool tracked = true, string? incluirPropiedades = null);
 

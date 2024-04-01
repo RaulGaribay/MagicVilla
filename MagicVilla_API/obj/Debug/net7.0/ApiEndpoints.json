@@ -198,7 +198,7 @@
     ]
   },
   {
-    "ContainingType": "MagicVilla_API.Controllers.v1.UsuarioController",
+    "ContainingType": "MagicVilla_API.Controllers.UsuarioController",
     "Method": "Login",
     "RelativePath": "api/v1/Usuario/login",
     "HttpMethod": "POST",
@@ -214,7 +214,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "MagicVilla_API.Controllers.v1.UsuarioController",
+    "ContainingType": "MagicVilla_API.Controllers.UsuarioController",
     "Method": "Registrar",
     "RelativePath": "api/v1/Usuario/registrar",
     "HttpMethod": "POST",
@@ -473,6 +473,37 @@
     ]
   },
   {
+    "ContainingType": "MagicVilla_API.Controllers.v1.VillaController",
+    "Method": "GetVillasPaginado",
+    "RelativePath": "api/v1/Villa/VillasPaginado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MagicVilla_API.Modelos.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "MagicVilla_API.Controllers.v2.NumeroVillaController",
     "Method": "Get",
     "RelativePath": "api/v2/NumeroVilla",
@@ -491,5 +522,37 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "MagicVilla_API.Controllers.UsuarioController",
+    "Method": "Login",
+    "RelativePath": "api/v2/Usuario/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "MagicVilla_API.Modelos.Dto.LoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MagicVilla_API.Controllers.UsuarioController",
+    "Method": "Registrar",
+    "RelativePath": "api/v2/Usuario/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "MagicVilla_API.Modelos.Dto.RegistroRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
