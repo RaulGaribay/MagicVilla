@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "LIU2o+xEyXcUCU1KO9qwqhpYmpxIdHbkTrmxx83qlG+SH9L46uCwr7Sqyc4tOCqYTU6Uhrprpu2MIxzCH0K3Rw==",
+  "dgSpecHash": "YHsZYSirQLOMrGpcd0Vb6JRZbP7/Te3GkgqQf/77K1y9TX945rlQUB34MDtkpJWTbPjkiny4Uz02OqSgr3MLNA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\asp.versioning.abstractions\\7.0.0\\asp.versioning.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\asp.versioning.http\\7.0.0\\asp.versioning.http.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\asp.versioning.mvc\\7.0.0\\asp.versioning.mvc.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\7.0.0\\asp.versioning.mvc.apiexplorer.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
