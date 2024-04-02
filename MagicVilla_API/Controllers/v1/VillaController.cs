@@ -38,7 +38,7 @@ namespace MagicVilla_API.Controllers.v1
         //Después de la primera petición, durante 30 segundos ya no consultará la información  
         //de la base de datos sino que enviará lo que tiene en memoria si se llega a realizar la misma solicitud.
         [ResponseCache(CacheProfileName = "Default30")]
-        [Authorize]
+        [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<APIResponse>> GetVillas()
         {
@@ -90,7 +90,8 @@ namespace MagicVilla_API.Controllers.v1
         //Mientras que los parametros vienen de lo que esta entre parentesis
         //Task siempre se cierra antes del nombre del método
         [HttpGet("{id:int}", Name = "GetVilla")]
-        [Authorize]
+        //AuthenticationSchemes solo cuando se usa Identity
+        [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -131,7 +132,7 @@ namespace MagicVilla_API.Controllers.v1
 
         //[FromBody] indica que vamos a recibir datos
         [HttpPost]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -183,7 +184,7 @@ namespace MagicVilla_API.Controllers.v1
         }
 
         [HttpDelete("{id:int}")]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -223,7 +224,7 @@ namespace MagicVilla_API.Controllers.v1
 
         //UpdateVilla y UpdatePartialVilla pueden hacerse sin usar un try catch como en los anteriores métodos
         [HttpPut("{id:int}")]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -255,7 +256,7 @@ namespace MagicVilla_API.Controllers.v1
         }
 
         [HttpPatch("{id:int}")]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
