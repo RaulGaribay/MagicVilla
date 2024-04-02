@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BB3m/WEKHl7/JreSbkBDgHctZq+bC1bBDDrWIYsFGIQpRd0SAm/8LR4E3cuC8ZG9bIkAbcqh76s6bwn3l8v+YA==",
+  "dgSpecHash": "gB2DGH4HOvlDacwF8d0E7ReIYlUhCZ8mwaKPIvcExURTfVGhY5jpxXbMLtE7Z6mBtgUPj2lzq9u3FRjvWFUMPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,9 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.0\\microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.1\\microsoft.aspnetcore.cryptography.internal.7.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.1\\microsoft.aspnetcore.cryptography.keyderivation.7.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.1\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.0\\microsoft.aspnetcore.jsonpatch.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
@@ -32,6 +35,8 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.identity.core\\7.0.1\\microsoft.extensions.identity.core.7.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.identity.stores\\7.0.1\\microsoft.extensions.identity.stores.7.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",

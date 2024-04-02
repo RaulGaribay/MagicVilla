@@ -35,6 +35,7 @@ namespace MagicVilla_Web.Services
                 }
                 else
                 {
+                    //Para añadir queryparameters
                     var builder = new UriBuilder(apiRequest.Url);
                     var query = HttpUtility.ParseQueryString(builder.Query);
                     query["PageNumber"] = apiRequest.Parametros.PageNumber.ToString();

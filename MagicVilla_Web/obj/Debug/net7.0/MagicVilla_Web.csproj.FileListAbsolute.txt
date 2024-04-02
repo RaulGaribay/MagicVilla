@@ -225,3 +225,8 @@ C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\MagicVilla_U
 C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\MagicVilla_Utilidades.pdb
 C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Web\obj\Debug\net7.0\MagicVilla_Web.csproj.AssemblyReference.cache
 C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Web\obj\Debug\net7.0\MagicVil.F5E7C950.Up2Date
+C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

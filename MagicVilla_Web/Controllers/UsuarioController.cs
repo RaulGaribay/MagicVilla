@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using NuGet.Protocol.Plugins;
 using NuGet.Versioning;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
 namespace MagicVilla_Web.Controllers
@@ -36,10 +37,16 @@ namespace MagicVilla_Web.Controllers
             {
                 LoginResponseDto loginResponse = JsonConvert.DeserializeObject<LoginResponseDto>(Convert.ToString(response.Resultado));
 
+                var handler = new JwtSecurityTokenHandler();
+                //Para poder leer las propiedades del token. Aparecen abajo las que se usan aquí: unique_name, role.
+                //Se puede ver que es lo que contiene el token visitando jwt.io lo que servirá para comprobar que estoy 
+                //haciendo el token de DS correctamente.
+                var jwt = handler.ReadJwtToken(loginResponse.Token);
+
                 //Claims
                 var identity = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme);
-                identity.AddClaim(new Claim(ClaimTypes.Name, loginResponse.Usuario.UserName));
-                identity.AddClaim(new Claim(ClaimTypes.Role, loginResponse.Usuario.Rol));
+                identity.AddClaim(new Claim(ClaimTypes.Name, jwt.Claims.FirstOrDefault(c => c.Type == "unique_name").Value));
+                identity.AddClaim(new Claim(ClaimTypes.Role, jwt.Claims.FirstOrDefault(c => c.Type == "role").Value));
                 var principal = new ClaimsPrincipal(identity);
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
