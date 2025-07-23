@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uF3kPY5ZMIKCP/RG0mBvHTmkgHmHssDtXH1qlbCmgm2GfOpCpMJsZq8wVgJnZU4D84xOdeOZ4NWy0vKormc9kA==",
+  "dgSpecHash": "hCEBENIhVtk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\MagicVilla\\MagicVilla_Web\\MagicVilla_Web.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Cursos\\01-APIs y webhooks\\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\\MagicVilla\\MagicVilla_Web\\MagicVilla_Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
@@ -205,18 +205,10 @@
     {
       "code": "NU1902",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "El paquete \"System.IdentityModel.Tokens.Jwt\" 6.21.0 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos\\01-APIs y webhooks\\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\\MagicVilla\\MagicVilla_Web\\MagicVilla_Web.csproj",
       "warningLevel": 1,
-      "message": "El paquete \"System.IdentityModel.Tokens.Jwt\" 6.21.0 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
+      "filePath": "C:\\Users\\Usuario\\Desktop\\Cursos\\01-APIs y webhooks\\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\\MagicVilla\\MagicVilla_Web\\MagicVilla_Web.csproj",
       "libraryId": "System.IdentityModel.Tokens.Jwt",
       "targetGraphs": [
         "net7.0"

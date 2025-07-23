@@ -2211,7 +2211,10 @@
       },
       "MagicVilla_Utilidades/1.0.0": {
         "runtime": {
-          "MagicVilla_Utilidades.dll": {}
+          "MagicVilla_Utilidades.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

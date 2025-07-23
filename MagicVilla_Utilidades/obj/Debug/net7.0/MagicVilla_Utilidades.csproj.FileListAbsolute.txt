@@ -10,3 +10,27 @@ C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\Magic
 C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\refint\MagicVilla_Utilidades.dll
 C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.pdb
 C:\Users\Usuario\Desktop\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\ref\MagicVilla_Utilidades.dll
+C:\Users\Usuario\Desktop\Cursos\APIs\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\bin\Debug\net7.0\MagicVilla_Utilidades.deps.json
+C:\Users\Usuario\Desktop\Cursos\APIs\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\bin\Debug\net7.0\MagicVilla_Utilidades.dll
+C:\Users\Usuario\Desktop\Cursos\APIs\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\bin\Debug\net7.0\MagicVilla_Utilidades.pdb
+C:\Users\Usuario\Desktop\Cursos\APIs\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Cursos\APIs\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Cursos\APIs\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Cursos\APIs\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Cursos\APIs\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.sourcelink.json
+C:\Users\Usuario\Desktop\Cursos\APIs\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.dll
+C:\Users\Usuario\Desktop\Cursos\APIs\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\refint\MagicVilla_Utilidades.dll
+C:\Users\Usuario\Desktop\Cursos\APIs\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.pdb
+C:\Users\Usuario\Desktop\Cursos\APIs\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\ref\MagicVilla_Utilidades.dll
+C:\Users\Usuario\Desktop\Cursos\01-APIs y webhooks\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\bin\Debug\net7.0\MagicVilla_Utilidades.deps.json
+C:\Users\Usuario\Desktop\Cursos\01-APIs y webhooks\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\bin\Debug\net7.0\MagicVilla_Utilidades.dll
+C:\Users\Usuario\Desktop\Cursos\01-APIs y webhooks\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\bin\Debug\net7.0\MagicVilla_Utilidades.pdb
+C:\Users\Usuario\Desktop\Cursos\01-APIs y webhooks\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Cursos\01-APIs y webhooks\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Cursos\01-APIs y webhooks\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Cursos\01-APIs y webhooks\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Cursos\01-APIs y webhooks\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.sourcelink.json
+C:\Users\Usuario\Desktop\Cursos\01-APIs y webhooks\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.dll
+C:\Users\Usuario\Desktop\Cursos\01-APIs y webhooks\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\refint\MagicVilla_Utilidades.dll
+C:\Users\Usuario\Desktop\Cursos\01-APIs y webhooks\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\MagicVilla_Utilidades.pdb
+C:\Users\Usuario\Desktop\Cursos\01-APIs y webhooks\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\MagicVilla\MagicVilla_Utilidades\obj\Debug\net7.0\ref\MagicVilla_Utilidades.dll

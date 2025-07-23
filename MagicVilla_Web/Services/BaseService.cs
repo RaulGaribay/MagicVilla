@@ -44,9 +44,6 @@ namespace MagicVilla_Web.Services
                     string url = builder.ToString(); //Genera url de tipo: api/v1/VillaPaginado/PageNumber=1&PageSize=4
                     message.RequestUri = new Uri(url);
                 }
-                
-
-
 
                 if (apiRequest.Datos != null)
                 {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gB2DGH4HOvlDacwF8d0E7ReIYlUhCZ8mwaKPIvcExURTfVGhY5jpxXbMLtE7Z6mBtgUPj2lzq9u3FRjvWFUMPA==",
+  "dgSpecHash": "IK9vQldol0Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Cursos\\01-APIs y webhooks\\06-Web APIs (NET 7) La Guia Completa (Crear y Consumir API)\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
